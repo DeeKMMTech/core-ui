@@ -28,7 +28,7 @@ kotlin {
             implementation(libs.kotlinx.serialization.json)
             implementation(libs.koin.core)
             implementation(libs.kotlinx.datetime)
-            implementation(project(":shared:common"))
+            implementation(project(":shared:core-common"))
         }
 
         androidMain.dependencies {
